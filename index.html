@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Projeto Labenu</title>
+
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background:#595f96;
+    overflow-y: hidden;
+  }
+
+  h1 {
+    background:#cd4d00;
+    color: #fff;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: Bold;
+    padding: 10px;
+  }
+
+  img {
+    display: flex;
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin-left: 25vw;
+    margin-bottom: 5vw;
+  }
+
+  .square1 {
+    background: #94c47d;
+    width: 180px;
+    height: 110px;
+    padding: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .square2 {
+    background: #e06666;
+    width: 180px;
+    height: 110px;
+    padding: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .square3 {
+    background: #6c9dea;
+    width: 180px;
+    height: 110px;
+    padding: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+  }
+
+  p {
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .team p {
+    font-size: 20px;
+    position: relative;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  footer {
+    background: #d8d8d8;
+    text-align: center;
+    padding: 50px;
+    height: 250px;
+  }
+
+  footer input {
+    width: 400px;
+    height: 40px;
+    color:rgb(51, 51, 51);
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  button {
+    color: #fff;
+    background: #cd4d00;
+    font-size: 18px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 992px) {
+    h1 {
+      font-size: 50px;
+    }
+    
+    img {
+      width: 500px;
+    }
+
+    .container {
+      display: initial;
+    }
+
+    .square1 {
+      width: 600px;
+      padding: 30px;
+      margin-left: -220px;
+    }
+
+    .square2 {
+      width: 600px;
+      padding: 30px;
+      margin-top: 30px;
+    }
+
+    .square3 {
+      width: 600px;
+      padding: 30px;
+      margin-top: 30px;
+    }
+
+    footer {
+      width: auto;
+      margin-top: 100px;
+      height: 1200px;
+    }
+
+    footer input {
+      width: 700px;
+      height: 100px;
+      font-size: 30px;
+    }
+
+    footer button {
+      margin-top: 30px;
+      width: 700px;
+      height: 100px;
+      font-size: 30px;
+    }
+
+    .team {
+      margin-top: 100px;
+      margin-bottom: -100px;
+    }
+
+  }
+</style>
+<body>
+
+  <h1>Projeto Seletivo Labenu</h1>
+
+  <center>
+  <img src="https://i.imgur.com/zFYQSIp.png">
+
+  <div class="container">
+    <div class="square1"><p>Mobile Frontend</p></div>
+    <div class="square2"><p>Data Science</p></div>
+    <div class="square3"><p>Web Full Stack</p></div>
+  </div>
+  </center>
+
+  <div class="team"><p>Turmas de 2020</p></div>
+
+  <footer>
+    <input type="email" placeholder="Coloque seu e-mail para contato! :)"><button>ENVIAR</button>
+  </footer>
+
+</body>
+</html>
